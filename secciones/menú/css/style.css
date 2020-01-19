@@ -20,12 +20,17 @@ color: #21242e;
 body{
     font-family: "Montserrat", "Arial", sans-serif;
     background-color: black;
+    color: white;
 }
-img{
-    max-width: 100%;
+img{max-width: 100%;
     padding: 0 0 1.825em 0;
     display: block;
     margin-bottom: 0.5em;
+}
+main section .flex{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4em;
     
 }
 
@@ -122,19 +127,72 @@ main section .underline span{
     font-weight: 700;
     
 }
-
+main img{
+    width: 25%;
+    height: auto;
+    
+    display: block;
+     }
 
 
 /* cuerpo */
-main{
+
+.contenedor1{
     display: flex;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    width: 30%;
+    
+}
+.caja1{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.caja1:nth-child(1){
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rojos{
+    display: block;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    height: 3em;
+    
+
+}
+.rojos:hover{
+    background-color: #fa573a;
+}
+
+.contenedor1, contenedor2{
+    margin-top: 3em;
+}
+
+.caja1 .underline{
+
+}
+.contenedor2{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 70%;
+}
+.caja2{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-content: flex-start;
+}
+.contenedortotal{
+    display: flex;
     flex-flow: row nowrap;
 }
 
-
-
-
+.cajaimagenes{
+    ;
+}
 
 
 
