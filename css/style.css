@@ -3,7 +3,7 @@
 /*
 font-family: Monserrat, sans-serif
 font-family:Handlee, cursive  
-color: #fa573a;
+color: #fa573a; menu
 color: #21242e; logo
 */
 *{
@@ -79,7 +79,8 @@ header .nav_top .container div:nth-child(3), header .nav_top .container div:last
 header nav .container{
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 
 }
 header .hamburguesa{
@@ -336,8 +337,26 @@ footer a{
 @media(max-width: 48.063em){
     header nav .menu{
         padding-top: 60px;
-        display: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
     }
+   
+    header nav .menu a{
+        margin-bottom: 1px solid #777;
+        color: black;
+        padding: 1.5em 0;
+        margin: 0 auto;
+        width: 100%;
+        display: inline-block;
+    }
+    nav .hamburguesa{
+        display: inline-block;
+        height: 40px;
+        
+    
+}
 }
 
 @media(min-width: 48.063em){
@@ -361,19 +380,20 @@ footer a{
             display: none;
         
     }
-    header nav .menu li{
+    header nav .menu {
         padding: 0.5 em 1.250em;
-        text-align: left;
+        text-align: center;
         border-bottom: 0;
         cursor: pointer;
         display: inline-block;
+        width: 100%;
 }
 
 @media(min-width: 62.75em){
     
    
     
-    header nav .menu li{
+    header nav .menu a{
         padding: 0.5 em 1.250em;
         text-align: left;
         border-bottom: 0;
@@ -383,6 +403,8 @@ footer a{
     main section .columna{
         width: 50%;
         padding: 1.25em 1em;
+
+    
 
 }
 
