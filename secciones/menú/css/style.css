@@ -21,3 +21,141 @@ body{
     font-family: "Montserrat", "Arial", sans-serif;
     background-color: black;
 }
+img{
+    max-width: 100%;
+    padding: 0 0 1.825em 0;
+    display: block;
+    margin-bottom: 0.5em;
+    
+}
+
+/* HEADER */
+
+header .nav_top{
+    background-color: #21242e;
+    color: white;
+    padding: 20px 0;
+}
+
+header .nav_top .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .nav_top .container div a{
+    text-decoration: none;
+    
+}
+
+header .nav_top .container div a span{
+  
+   color: white;
+}
+
+
+header nav{
+    background-color: white;
+    
+}
+header div a{
+    color: #fa573a;
+}
+/* NAV */
+header nav .menu{
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    
+}
+.menu a{
+    text-decoration: none;
+    margin: 0 1em;
+    color: #fa573a;
+    
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 0 3%;
+    height: 40px;
+}
+header nav .logo{
+    
+    width: 6.250em;
+    margin-top: 10px;
+}
+
+/* today´s menu*/
+main section.container{
+    padding: 3.125em 0;
+}
+
+main section h2{
+    font-family:Handlee, cursive;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+main section h2 span{
+    color: #fa573a;
+}
+
+main section .underline{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+main section .underline hr{
+    border-color: #fa573a;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+}
+
+main section .underline span{
+    color: #fa573a;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+
+
+/* cuerpo */
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: #21242e;
+    color: white;
+    padding: 1.825em;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}

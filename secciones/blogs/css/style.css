@@ -20,6 +20,13 @@ color: #21242e;
 body{
     font-family: "Montserrat", "Arial", sans-serif;
 }
+img{
+    max-width: 100%;
+    padding: 0 0 1.825em 0;
+    display: block;
+    margin-bottom: 0.5em;
+    
+}
 /* HEAD */
 
 header .nav_top{
@@ -41,11 +48,12 @@ header .nav_top .container div a span{
   
    color: white;
 }
-
-header nav.container{
-    padding: 30px 0;
-
+header nav .logo{
+    
+    width: 6.250em;
+    margin-top: 10px;
 }
+
 
 header div a{
     color: #fa573a;
@@ -110,11 +118,7 @@ main section .underline span{
     font-weight: 700;
     
 }
-header nav .logo{
-    
-    width: 6.250em;
-    margin-top: 10px;
-}
+
 
 
 
@@ -135,13 +139,7 @@ main section .flex article{
 
 
 
-img{
-    max-width: 100%;
-    padding: 0 0 1.825em 0;
-    display: block;
-    margin-bottom: 0.5em;
-    
-}
+
 
 section article .cuadrorojo {
     
