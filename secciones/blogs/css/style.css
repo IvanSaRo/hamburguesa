@@ -18,7 +18,7 @@ color: #21242e;
 }
 
 body{
-    font-family: "Montserrat", "Arial", sans-serif;;
+    font-family: "Montserrat", "Arial", sans-serif;
 }
 /* HEAD */
 
@@ -230,25 +230,27 @@ footer a{
     text-decoration: none;
 }
 
-/*para el media query
-header nav .menu{
-    padding-top: 60px;
-}
 
-header nav .menu li{
-    padding: 1.250em;
-    text-align: center;
-    border-bottom: 1px solid #aaa;
-    
-}
+/* MEDIA QUERYS*/
 
-header nav .menu li:last-child{
-    border: 0px;
+@media(max-width: 48.063){
+    nav .container{
+        flex-flow: column wrap;
+    }
+    .menu{
+        flex-flow: column wrap;
+        margin-bottom: 1px solid #777;
+    }
+    .menu:nth-child(3){
+        margin-bottom: none;
+    }
+    main section .flex article{
+        width: 50%;
+        padding: 1em 0;
+        
+        margin: 0.5em 1.5em;
+    }
+    .container{
+        width: 100%;
+    }
 }
-
-header nav .menu li a{
-    color: #aaa;
-    text-decoration: none;
-    display: block;
-    
-}*/

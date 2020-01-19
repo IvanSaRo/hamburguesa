@@ -1,0 +1,23 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700&display=swap');
+/*
+font-family: Monserrat, sans-serif
+font-family:Handlee, cursive
+color: #fa573a;
+color: #21242e;
+*/
+*{box-sizing: border-box;}
+
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+body{
+    font-family: "Montserrat", "Arial", sans-serif;
+    background-color: black;
+}
