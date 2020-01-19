@@ -33,7 +33,17 @@ main section .flex{
     margin-top: 4em;
     
 }
-
+p{
+    color: #555;
+}
+.cajagrande2 a:hover i{
+    margin: left;
+    transition: 0.5s;
+    transform: translateX(5px);
+}
+hr{
+    width: 100px;
+}
 /* HEADER */
 
 header .nav_top{
@@ -63,6 +73,9 @@ header nav{
 }
 header div a{
     color: #fa573a;
+}
+.container h2{
+    color: white;
 }
 /* MAIN */
 main section.container{
@@ -132,10 +145,39 @@ main{
     display: flex;
     flex-direction: row;
 }
+/*.cajagrande1*/
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .caja1 div{
+        margin: 0.5em;
+    }
+.caja1 div:hover{
+    background-color: #fa573a;
+    border-radius: 10%;
+    padding: 0.3em;
+}
+
 .cajagrande1{
     width: 30%;
     
 }
+.caja1{
+    width: 30%;
+    margin-bottom: 50px;
+    }
+
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+    top: 0.5em;
+}
+
+/* cajagrande2 */
 .cajagrande2{
     width: 70%;
     display: flex;
@@ -143,9 +185,7 @@ main{
 
 }
 
-.caja1 div{
-    margin: 1em;
-}
+
 .fotoytexto{
     display: flex;
     flex-direction: row;
@@ -163,24 +203,38 @@ main{
 .textos{
     margin-left: 3.125em;
 }
+
 .cajagrande2 img{
     width: 6.250em;
     height: 6.250em;
-    
+  
 }
-.caja1{
-    width: 30%;
-    margin-bottom: 100px;
-    }
 
-.caja1:nth-child(5){
-    margin-top: 2em;
+.cajagrande2 h3{
+    margin-bottom: 0.4em;
 }
-.caja2{
-    display: flex;
-    flex-direction: column;
+
+.cajagrande2 p{
+    margin: 0.4em 0;
+}
+.cajagrande2 a i{
+    margin-left: 0.6em;
+    margin-top: 0.6em;
+}
+.cajagrande2 span{
+    text-decoration: none;
+    color: #fa573a;
     
 }
+.cajagrande2 a{
+    text-decoration: none;
+    color: #fa573a;
+    margin-top: 0.4em;
+}
+
+
+
+
 
 
 

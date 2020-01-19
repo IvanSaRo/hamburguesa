@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700&display=swap');
 /*
 font-family: Monserrat, sans-serif
-font-family:Handlee, cursive
+font-family:Handlee, cursive  
 color: #fa573a;
 color: #21242e; logo
 */
@@ -124,7 +124,7 @@ header nav .menu li a{
     display: block;
     
 }
-header nav .menu li a:hover{
+header nav .menu li a:{
     color: #fa57fa;
 }
 header nav .menu li a.activo{
@@ -175,7 +175,7 @@ header nav .menu li a.activo{
     border: 1px solid #fa573a;
 }
 
-.boton:hover{
+.boton:{
     background-color: transparent;
     color: #fa573a;
     
