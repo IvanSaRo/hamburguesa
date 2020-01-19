@@ -64,41 +64,14 @@ header nav{
 header div a{
     color: #fa573a;
 }
-/* NAV */
-header nav .menu{
-    padding-top: 20px;
-    display: flex;
-    flex-flow: row nowrap;
-    
-    
-}
-.menu a{
-    text-decoration: none;
-    margin: 0 1em;
-    color: #fa573a;
-    
-}
-nav .container{
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    padding: 0 3%;
-    height: 40px;
-}
-header nav .logo{
-    
-    width: 6.250em;
-    margin-top: 10px;
-}
-
-/* today´s menu*/
+/* MAIN */
 main section.container{
     padding: 3.125em 0;
 }
 
 main section h2{
     font-family:Handlee, cursive;
-    color: white;
+    color: black;
     font-size: 2em;
     text-align: center;
 }
@@ -127,77 +100,87 @@ main section .underline span{
     font-weight: 700;
     
 }
-main img{
-    width: 25%;
-    height: auto;
-    
-    display: block;
-     }
-
-
-/* cuerpo */
-
-.contenedor1{
+/* NAV */
+header nav .menu{
+    padding-top: 20px;
     display: flex;
     flex-flow: row nowrap;
+    
+    
+}
+.menu a{
+    text-decoration: none;
+    margin: 0 1em;
+    color: #fa573a;
+    
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 0 3%;
+    height: 40px;
+}
+header nav .logo{
+    
+    width: 6.250em;
+    margin-top: 10px;
+}
+
+/* today´s menu*/
+main{
+    display: flex;
+    flex-direction: row;
+}
+.cajagrande1{
     width: 30%;
     
 }
-.caja1{
-    display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-}
-
-.caja1:nth-child(1){
-    display: flex;
-    flex-flow: column nowrap;
-}
-
-.rojos{
-    display: block;
-    color: white;
-    width: 90%;
-    margin: 0 auto;
-    height: 3em;
-    
-
-}
-.rojos:hover{
-    background-color: #fa573a;
-}
-
-.contenedor1, contenedor2{
-    margin-top: 3em;
-}
-
-.caja1 .underline{
-
-}
-.contenedor2{
-    display: flex;
-    flex-flow: row nowrap;
+.cajagrande2{
     width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caja1 div{
+    margin: 1em;
+}
+.fotoytexto{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+}
+.juntando{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+
+.fotoytexto{
+    margin-left: 6.250em;
+}
+.textos{
+    margin-left: 3.125em;
+}
+.cajagrande2 img{
+    width: 6.250em;
+    height: 6.250em;
+    
+}
+.caja1{
+    width: 30%;
+    margin-bottom: 100px;
+    }
+
+.caja1:nth-child(5){
+    margin-top: 2em;
 }
 .caja2{
     display: flex;
-    flex-flow: column nowrap;
-    width: 100%;
-    align-content: flex-start;
+    flex-direction: column;
+    
 }
-.contenedortotal{
-    display: flex;
-    flex-flow: row nowrap;
-}
-
-.cajaimagenes{
-    ;
-}
-
-
-
-
-
 
 
 
@@ -217,3 +200,4 @@ footer a{
     color: white;
     text-decoration: none;
 }
+
