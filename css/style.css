@@ -51,19 +51,19 @@ header .nav_top .container{
     justify-content: space-between;
 }
 
-header .nav_top .container div{
-   
-}
 
 header .nav_top .container div a{
     color: white;
     text-decoration: none;
-    font-size: 150%;
+    
+}
+header .nav_top .container a span{
+    font-size: 100%;
 }
 
-
-header .nav_top a span{
+header .nav_top  a span{
     display: none;
+    
 }
 
 header .nav_top a i{
@@ -99,15 +99,17 @@ header nav .logo{
     margin-top: 10px;
 }
 
-/*header nav .menu{
-    padding-top: 60px; a ver si así sale
-    display: none;
-}*/
-
-header nav .menu li{
+header nav .menu{
+    padding-top: 20px; 
+    display: flex;
+    flex-flow: row nowrap;
+    text-decoration: none;
     
-    text-align: center;
-    border-bottom: 1px;
+}
+
+ .menu a{
+    text-decoration: none;
+    margin: 0 1em;
     
 }
 
@@ -369,9 +371,7 @@ footer a{
 @media(min-width: 62.75em){
     
    
-    header nav .menu{
-        
-    }
+    
     header nav .menu li{
         padding: 0.5 em 1.250em;
         text-align: left;
@@ -400,4 +400,4 @@ footer a{
         margin: 0 auto;
     }
     
-}}
+}

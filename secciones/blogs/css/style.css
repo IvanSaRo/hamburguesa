@@ -49,18 +49,26 @@ header nav.container{
 
 header div a{
     color: #fa573a;
-    display: block;
 }
 /* NAV */
 header nav .menu{
-    padding-top: 60px;
+    padding-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    
+    
 }
-.menu li{
-    display: inline;
+.menu a{
+    text-decoration: none;
+    margin: 0 1em;
+    color: #fa573a;
+    
 }
 nav .container{
     display: flex;
     justify-content: space-between;
+    flex-flow: row nowrap;
+    
 }
 
 
@@ -137,7 +145,7 @@ img{
 
 section article .cuadrorojo {
     
-    background-color: red;
+    background-color:#fa573a95;
     display: block;
     position: absolute;
     left: 0;
