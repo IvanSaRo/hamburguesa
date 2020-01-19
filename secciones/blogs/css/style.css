@@ -1,0 +1,246 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700&display=swap');
+/*
+font-family: Monserrat, sans-serif
+font-family:Handlee, cursive
+color: #fa573a;
+color: #21242e;
+*/
+*{box-sizing: border-box;}
+
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+body{
+    font-family: "Montserrat", "Arial", sans-serif;;
+}
+/* HEAD */
+
+header .nav_top{
+    background-color: #21242e;
+    color: white;
+    padding: 20px 0;
+}
+
+header .nav_top .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .nav_top .container div a{
+    text-decoration: none;
+    
+}
+
+header .nav_top .container div a span{
+  
+   color: white;
+}
+
+header nav.container{
+    padding: 30px 0;
+
+}
+
+header div a{
+    color: #fa573a;
+    display: block;
+}
+/* NAV */
+header nav .menu{
+    padding-top: 60px;
+}
+.menu li{
+    display: inline;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* MAIN */
+main section.container{
+    padding: 3.125em 0;
+}
+
+main section h2{
+    font-family:Handlee, cursive;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+main section h2 span{
+    color: #fa573a;
+}
+
+main section .underline{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+main section .underline hr{
+    border-color: #fa573a;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+}
+
+main section .underline span{
+    color: #fa573a;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    
+}
+header nav .logo{
+    
+    width: 6.250em;
+    margin-top: 10px;
+}
+
+
+
+/*A PARTIR DE AQUÍ*/
+main section .flex{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 4em;
+    
+}
+
+main section .flex article{
+    width: 38%;
+    padding: 1em 0;
+    
+    margin: 0.5em 1.5em;
+}
+
+
+
+img{
+    max-width: 100%;
+    padding: 0 0 1.825em 0;
+    display: block;
+    margin-bottom: 0.5em;
+    
+}
+
+section article .cuadrorojo {
+    
+    background-color: red;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 3em;
+    min-height: 3em;
+    line-height:normal;
+    text-align: center;  
+    
+}
+
+section article .cuadrorojo p{
+    
+    color: white;
+    padding-top: 0.3em;
+    
+    display:inline-block;
+	
+}
+
+/*main section .flex article:last-child{
+    border-bottom: 0px;}*/
+
+
+main section article div i{
+    color: #fa573a;
+    
+   
+    
+    
+}
+
+.relative {
+    position: relative;
+}
+
+
+main section article h3{
+    margin-bottom: 0.7em;
+    font-size: 1.5em;
+    
+}
+
+main section article h4{
+    color: #fa573a;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+    
+}
+
+main section article p{
+    margin-bottom: 0.7em;
+    
+}
+
+main section article a{
+    color: #fa573a;
+    text-decoration: none;
+    font-weight: bold;
+    
+  
+}
+.boton:hover i{
+    transform: translateX(5px);
+    transition: transform 1s;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #21242e;
+    color: white;
+    padding: 1.825em;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/*para el media query
+header nav .menu{
+    padding-top: 60px;
+}
+
+header nav .menu li{
+    padding: 1.250em;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    
+}
+
+header nav .menu li:last-child{
+    border: 0px;
+}
+
+header nav .menu li a{
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    
+}*/

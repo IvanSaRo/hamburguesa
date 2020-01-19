@@ -1,0 +1,403 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700&display=swap');
+/*
+font-family: Monserrat, sans-serif
+font-family:Handlee, cursive
+color: #fa573a;
+color: #21242e; logo
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 1em;
+
+}
+/* esta parte es para que funcionen las flotaciones*/
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+.container-fluid{
+    width: 100%;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+p{
+    color: #555;
+}
+/* INICIO HEADER */
+
+
+
+header .nav_top{
+    background-color: #21242e;
+    color: white;
+    padding: 20px 0;
+}
+
+header .nav_top .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav_top .container div{
+   
+}
+
+header .nav_top .container div a{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+
+header .nav_top a span{
+    display: none;
+}
+
+header .nav_top a i{
+    color: #fa573a;
+}
+
+
+header .nav_top .container div:nth-child(3), header .nav_top .container div:last-child{
+    text-align: right;
+}
+/* Inicio Nav*/
+
+header nav .container{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+header .hamburguesa{
+    float: right;
+    cursor: pointer;
+}
+header .hamburguesa div{
+    border-top: 2px solid #aaa;
+    width: 1.875em;
+    margin-bottom: 0.625em;
+    margin-top: 10px;
+}
+
+header nav .logo{
+    
+    width: 6.250em;
+    margin-top: 10px;
+}
+
+/*header nav .menu{
+    padding-top: 60px; a ver si así sale
+    display: none;
+}*/
+
+header nav .menu li{
+    
+    text-align: center;
+    border-bottom: 1px;
+    
+}
+
+header nav .menu li:last-child{
+    border: 0px;
+}
+
+header nav .menu li a{
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    
+}
+header nav .menu li a:hover{
+    color: #fa57fa;
+}
+header nav .menu li a.activo{
+    color: #fa573a
+}
+/*INICIO HERO*/
+.hero p{
+    color: black;
+}
+
+
+.hero{
+    background-image: url("../images/fondo.jpg");
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+    background-color:#777;
+    background-blend-mode: multiply;
+}
+
+.hero>div {
+    color:white;
+    padding: 7% 3%;
+}
+
+.hero h1{
+    font-size: 2.5em;
+    font-family: "Handlee", cursive;
+    color: white;
+}
+
+.hero h2{
+    color: #fa573a;
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.hero p{
+    font-size: 1.15em;
+}
+
+.boton{
+    background-color: #fa573a;
+    display: inline-block;
+    color: white;
+    padding: 1.15em;
+    margin: 1em 0;
+    border: 1px solid #fa573a;
+}
+
+.boton:hover{
+    background-color: transparent;
+    color: #fa573a;
+    
+}
+.boton:hover i{
+     transform: translateX(5px);
+     transition: transform 1s;
+ }
+
+ .hero .social li{
+     display: inline;
+     font-size: 2em;
+ }
+
+ .hero .social li a{
+     color: white;
+     text-decoration: inline;
+     margin-right: 1em;
+ }
+ 
+/* MAIN */
+main section.container{
+    padding: 3.125em 0;
+}
+
+main section h2{
+    font-family:Handlee, cursive;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+main section h2 span{
+    color: #fa573a;
+}
+
+main section .underline{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+main section .underline hr{
+    border-color: #fa573a;
+    position: absolute;
+    top: 1px;
+    width: 100%;
+}
+
+main section .underline span{
+    color: #fa573a;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+main section .flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section .flex article{
+    width: 100%;
+    padding: 1.825em 0;
+   
+    margin-bottom: 0.5em;
+}
+
+main section .flex article:last-child{
+    border-bottom: 0px;
+}
+
+main section article div i{
+    color: #fa573a;
+    font-size: 2em;
+    border: 2px solid #fa573a;
+    padding: .8rem;
+}
+
+main section article div .fa-truck{
+    transform: rotateY(180deg);/* es para girar el camión*/
+}
+
+main section article h3{
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+main section .enlace{
+    text-decoration: none;
+    color: #fa573a;
+    margin-top: 1em;
+    display: block;
+}
+
+main section .enlace:hover i{
+    margin: left;
+    transition: 0.5s;
+}
+
+main section .columna{
+    width: 100%;
+    padding: 1.25em 0;
+
+}
+main section .imagen{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+main section .imagen .marco{
+    border: 3px solid #fa573a;
+    background-color: transparent;
+    transform: rotateZ(10deg);
+    transition: 1s;
+}
+
+main section .imagen .marco img{
+    transform: rotateZ(-10deg);
+    transition: 1s;
+}
+
+main section .imagen:hover .marco, main section .imagen:hover img{
+    transform: rotateZ(0deg);
+
+}
+
+
+main section .columna h3{
+    font-size: 700;
+}
+main section .columna h4{
+    margin: 0.5em 0;
+    color: #fa573a;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #21242e;
+    color: white;
+    padding: 1.825em;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MEDIA QUERYS */
+@media(max-width: 48.063em){
+    header nav .menu{
+        padding-top: 60px;
+        display: none;
+    }
+}
+
+@media(min-width: 48.063em){
+    header .nav_top a span{
+        display: inline;
+        font-size: 52%;
+    }
+    main section .flex article{
+        width: 50%;
+        padding: 1.825em 1em;
+        border-bottom: 0px;
+        border-left: 1px;
+
+    }
+    main section .flex article:last-child{
+        width: 100%;
+        text-align: center;
+    }
+    nav .hamburguesa{
+        
+            display: none;
+        
+    }
+    header nav .menu li{
+        padding: 0.5 em 1.250em;
+        text-align: left;
+        border-bottom: 0;
+        cursor: pointer;
+        display: inline-block;
+}
+
+@media(min-width: 62.75em){
+    
+   
+    header nav .menu{
+        
+    }
+    header nav .menu li{
+        padding: 0.5 em 1.250em;
+        text-align: left;
+        border-bottom: 0;
+        cursor: pointer;
+        display: inline-block;
+    }
+    main section .columna{
+        width: 50%;
+        padding: 1.25em 1em;
+
+}
+
+@media(min-width: 75.0625;){
+    main section .flex article{
+        width: 33.33%;
+        
+    }
+    main section .flex article:last-child{
+        width: 33.33%;
+    }
+    .hero>div {
+        color:white;
+        padding: 10% 3%;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    
+}}
